@@ -6,7 +6,8 @@ public class Isosceles {
     public static void main (String[] args) {
         Scanner reader = new Scanner(System.in);
 
-        System.out.println("Write a number:");
+        System.out.print("Write a number: ");
+
         int number = reader.nextInt();
         int iterator = 1;
 
@@ -15,7 +16,8 @@ public class Isosceles {
                 System.out.print("*");
             }
             iterator=iterator+2;
-            System.out.println("");
+
+            System.out.print("\n");
         }
     }
 }
